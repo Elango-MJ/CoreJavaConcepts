@@ -15,6 +15,10 @@ public class SwapString {
 		System.out.println(a);
 		System.out.println(b);
 		
+		System.out.println(System.currentTimeMillis());
+		
+		//1749126511574
+		
 
 	}
 

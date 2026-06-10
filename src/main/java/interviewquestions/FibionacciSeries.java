@@ -24,6 +24,17 @@ public class FibionacciSeries {
 			System.out.println(a[j]);
 		}
 		
+		//another method
+		int first=0;
+		int second=1;
+		int n=10;
+		for(int i=1;i<=n;i++) {
+			System.out.print(first+" ");
+			int third=first+second;
+			first=second;
+			second=third;
+		}
+		
 
 	}
 

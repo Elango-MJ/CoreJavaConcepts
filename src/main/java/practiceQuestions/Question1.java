@@ -9,11 +9,17 @@ public class Question1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		//Count Character Frequencies
+		//Find the First Non-Repeating Character
+		//Find the Most Frequent Character
+		//If more than one character has the same max frequency, it prints the first character of the string (c[0]).
+		//Otherwise, it prints the character with the max frequency.
 		
 		String s="swashd";
 		char[] c=s.toCharArray();
 		
 		LinkedHashMap<Character,Integer> hs=new LinkedHashMap<>();
+		//linkedHasMap maintains insertion order
 		
 		for(char value:c) {
 			if(hs.containsKey(value)) {

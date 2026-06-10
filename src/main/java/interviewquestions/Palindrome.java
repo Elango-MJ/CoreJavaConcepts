@@ -3,6 +3,7 @@ package interviewquestions;
 public class Palindrome {
 	
 	public static void abc(String str) {
+		//using recursion
 		int i=0;
 	    int j=str.length()-1;
 	    boolean c=true;
@@ -10,7 +11,7 @@ public class Palindrome {
 			if(str.charAt(i)==str.charAt(j)) {
 				i++;
 				j--;
-				//C++;
+				
 				
 			}else {
 				System.out.println("not a palindrome");

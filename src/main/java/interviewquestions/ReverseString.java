@@ -9,6 +9,12 @@ public class ReverseString {
 			output+=inputString.charAt(i);
 		}
 		System.out.println(output);
+		
+		//using stringBuffer class
+		
+		StringBuffer sb=new StringBuffer(inputString);
+		String result =sb.reverse().toString();
+		System.out.println(result);
 	
 
 	}
