@@ -1,6 +1,6 @@
 package InterviewQuestions3;
 
-import java.util.HashMap;
+import java.util.*;
 
 public class wordsCountsinString {
 

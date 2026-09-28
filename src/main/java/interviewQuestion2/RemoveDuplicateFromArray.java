@@ -9,15 +9,11 @@ public class RemoveDuplicateFromArray {
 		
 		int[] a= {2,7,5,2,8,7,9};
 		
+		
 		ArrayList<Integer> l=new ArrayList<>();
 		
 		for(int i=0;i<a.length;i++) {
-			
-			boolean duplicate=false;
-			if(l.contains(a[i])) {
-				duplicate=true;
-			}
-			else if(duplicate==false) {
+			if(!l.contains(a[i])) {
 				l.add(a[i]);
 			}
 		}

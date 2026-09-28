@@ -6,7 +6,7 @@ public class PrimeNumber {
 		if(num<=1) {
 			return false;
 		}
-		for(int i=2;i<Math.sqrt(num);i++) {
+		for(int i=2;i<=Math.sqrt(num);i++) {
 			if(num%i==0) {
 				return false;
 			}
@@ -17,7 +17,7 @@ public class PrimeNumber {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int num=79;
+		int num=2;
 		if(prime(num)) {
 			System.out.println(num+":is a prime number");
 		}else {

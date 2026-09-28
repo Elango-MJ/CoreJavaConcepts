@@ -6,7 +6,7 @@ public class RightTriangle {
 		// TODO Auto-generated method stub
 		for(int i=4;i>0;i--) {
 			for(int j=i;j>0;j--) {
-				System.out.print("*"+"\t");
+				System.out.print("*"+" ");
 			}
 			System.out.println("");
 		}

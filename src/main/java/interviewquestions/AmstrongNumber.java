@@ -11,7 +11,7 @@ public class AmstrongNumber {
 		int orginalNumber=input;
 		int length=String.valueOf(input).length();
 		double sum=0;
-		while(input !=0) {
+		while(input>0) {
 			int digit=input % 10;
 			sum=sum+Math.pow(digit,length);
 			input=input/10;

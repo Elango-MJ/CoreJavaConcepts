@@ -10,6 +10,7 @@ public class SwapTwoNumbers {
 	a=a-b;
 	System.out.println(a);
 	System.out.println(b);
+	System.out.println(Integer.MIN_VALUE);
 	
 	}
 

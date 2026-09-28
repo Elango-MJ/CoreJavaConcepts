@@ -17,7 +17,7 @@ public class ReversArray {
 			right--;
 		}
 		for(int i=0;i<a.length;i++) {
-			System.out.print(a[i]+"\t");
+			System.out.print(a[i]+" ");
 		}
 
 	}
